@@ -1,0 +1,53 @@
+
+.main-content{
+    
+    width:50rem ;
+}
+.main-section{
+    margin-left: 15rem;
+    width: 50rem;
+    height: fit-content;
+    margin-top: 4rem;
+
+}
+.main-heading{
+    background-color: #154c79;
+    
+    color: white;
+    font-size: 1.3rem;
+    width: 50rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   font-weight: 700;
+}
+.main-heading p{
+    padding-left: 3rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-label{
+display: flex;
+flex-direction: column;
+font-weight: 600;
+   
+}
+
+.label{
+
+    margin-bottom: 0.5rem;
+}
+.input{
+    height: 1.5rem;
+    width: 15rem;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+}
+.input :hover{
+border: none;
+}
